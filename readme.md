@@ -4,8 +4,8 @@
     . Fully functional app  
     . Admin must approve the advertisement of campaign
     
-    TRY IT BY YOUR SELF : https://sociopedia.herokuapp.com/ 
-    
+    TRY IT BY YOUR SELF : [a link](https://https://sociopedia.herokuapp.com)
+
         1. Sign up using fake email > Create a campaign (this campaign can only be approved by admin ) 
         
         2. Login using Admin 
