@@ -93,7 +93,13 @@ exports.isLoggedIn = async (req, res, next) => {
             
             const currentUser = await User.findById(decoded.id)
             
-            if(!currentUser) return(next)
+            if (!currentUser) {
+                res.status(200).render('campaigns', {
+                    title: 'All campaigns',
+                    confirmedCampaignData,
+                    pendingCampaignData
+                })
+            }
 
             /**
              * we have a logged in user,
@@ -109,7 +115,9 @@ exports.isLoggedIn = async (req, res, next) => {
         }
     }
     // no logged in user
-    return next()
+    res.status(200).render('main', {
+        title: 'main page',
+    })
 }
 
 /**
