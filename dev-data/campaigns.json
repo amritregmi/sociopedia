@@ -1,0 +1,85 @@
+[{
+  "_id": {
+    "$oid": "601493c98823d323c45e1d0f"
+  },
+  "approved": true,
+  "name": "Too much co2 gas emmission",
+  "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+  "date": {
+    "$date": "2022-01-01T13:00:00Z"
+  },
+  "__v": 0,
+  "address": "Woden"
+},{
+  "_id": {
+    "$oid": "6014940b8823d323c45e1d10"
+  },
+  "approved": false,
+  "name": "Reckless Driving",
+  "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+  "date": {
+    "$date": "2021-05-01T14:00:00Z"
+  },
+  "__v": 0,
+  "address": "Access Canberra, Gungahlin"
+},{
+  "_id": {
+    "$oid": "60149b145113ec25f05dcb02"
+  },
+  "approved": true,
+  "name": "Air Pollution",
+  "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+  "date": {
+    "$date": "2021-05-01T14:00:00Z"
+  },
+  "__v": 0,
+  "address": "Sydney"
+},{
+  "_id": {
+    "$oid": "6014eaf6ad34ed42332c646c"
+  },
+  "approved": true,
+  "name": "Raise awareness against racisism",
+  "description": "This is a campaign that raises awareness against the negative impact of social racisism",
+  "address": "Brisbane",
+  "date": {
+    "$date": "2021-04-22T00:00:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6015448db08dff5ab6cf80df"
+  },
+  "approved": false,
+  "name": "Campaign 2 ",
+  "description": "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.",
+  "address": "Belconnen",
+  "date": {
+    "$date": "2023-03-01T00:00:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "6015cd352722dd5c8940cfa4"
+  },
+  "approved": false,
+  "name": "TESTING CAMPAIGN",
+  "description": "TEST CAMPAIGN",
+  "address": "CANBERRA",
+  "date": {
+    "$date": "2022-02-05T00:00:00Z"
+  },
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "602574ddfee13607c85f4b7a"
+  },
+  "approved": false,
+  "name": "test campaign",
+  "description": "test",
+  "address": "canberra",
+  "date": {
+    "$date": "2020-02-12T00:00:00Z"
+  },
+  "__v": 0
+}]
