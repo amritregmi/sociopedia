@@ -1,10 +1,10 @@
-# SOCIAL AWARENESS - Addvertisement of Campaign, deployed in heroku
+# SOCIAL AWARENESS - Addvertisement of Campaign, deployed in heroku (https://https://sociopedia.herokuapp.com)
 ```
     . Is a app, where real user are able to post their campaign adds to raise awareness. 
     . Fully functional app  
     . Admin must approve the advertisement of campaign
     
-    Link to the app video (https://www.youtube.com/watch?v=OqIs9W7gXJg&ab_channel=AmritRegmi)
+    
     TRY IT BY YOUR SELF : (https://https://sociopedia.herokuapp.com)
 
         1. Sign up using fake email > Create a campaign (this campaign can only be approved by admin ) 
