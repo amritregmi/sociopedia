@@ -12,13 +12,12 @@ REST API
 ```
 
 ## Installation
-
-   $ git clone https://github.com/amritregmi/socialawareness
-   $ npm install
-   $ touch .env
-
-   Paste below in .env file, CHANGE DATABASE_USERNAME and DATABASE_PASSWORD
-   
+    ```
+       $ git clone https://github.com/amritregmi/socialawareness
+       $ npm install
+       $ touch .env
+    ```
+   ### Paste below in .env file, CHANGE DATABASE_USERNAME and DATABASE_PASSWORD
         ```
         PORT = 3030
         DB_LINK = mongodb+srv://DATABASE_USERNAME:<DATABASE_PASSWORD>@cluster0.ua44v.mongodb.net/socialawareness?retryWrites=true&w=majority
