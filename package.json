@@ -10,7 +10,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js "
   },
-  "author": "Prakash",
+  "author": "Amrit",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.21.1",
