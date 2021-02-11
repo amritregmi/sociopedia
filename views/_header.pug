@@ -1,0 +1,14 @@
+header.header
+    nav.nav.nav--tours
+        a.nav__el(href='/') SOCIOPEDIA
+    //- .header__logo
+    //-     img(src='/img/logo.png' alt='sociopedia')
+    nav.nav.nav--user
+      if user 
+        a.nav__el.nav__el--logout Logout
+        a.nav__el(href='#')
+            //-img(src='#' alt=`img`).nav__user-img
+            span=user.name.split(' ')[0]
+      else
+        a.nav__el(href='/login') Login
+        a.nav__el.nav__el--cta(href='/signup') Signup

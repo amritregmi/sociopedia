@@ -1,0 +1,49 @@
+
+table.table.table-hover.table-custom
+  caption List of pending campaigns
+  thead
+    tr
+      th(scope='col') ID
+      th(scope='col') NAME
+      th(scope='col') LOCATION
+      th(scope='col') DATE
+      th(scope='col') APPROVED
+      th(scope='col') ACTION
+  tbody
+    each campaign in pendingCampaignData
+        tr
+        th(scope='row')=campaign.id
+        td= campaign.name.toUpperCase()
+        td= campaign.address.toUpperCase()
+        td= campaign.date.toLocaleString('en-au',{day:'2-digit',month:'long',year:'numeric'})
+        td= campaign.approved
+        td
+            button.btn-primary.btn-sm.btn-approve(type='button',data-id=campaign.id) Approve 
+            
+            button.btn-danger.btn-sm.btn-decline(type='button',data-id=campaign.id) Delete
+
+h1.heading-secondary List of Approved Campaign 
+table.table.table-hover.table-custom
+  caption List of approved campaigns
+  thead
+    tr
+      th(scope='col') ID
+      th(scope='col') NAME
+      th(scope='col') LOCATION
+      th(scope='col') DATE
+      th(scope='col') ACTION
+      
+  tbody
+    each campaign in confirmedCampaignData
+        tr
+        th(scope='row')=campaign.id
+        td= campaign.name.toUpperCase()
+        td= campaign.address.toUpperCase()
+        td= campaign.date.toLocaleString('en-au',{day:'2-digit',month:'long',year:'numeric'})
+        td
+            button.btn-danger.btn-sm.btn-suspend(type='button',data-id=campaign.id) Suspend 
+          
+        
+
+
+//- pre=confirmedCampaignData
