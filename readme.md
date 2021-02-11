@@ -17,7 +17,7 @@ REST API
        $ npm install
        $ touch .env
     ```
-   Paste below in .env file, CHANGE DATABASE_USERNAME and DATABASE_PASSWORD
+   #### Paste below in .env file, CHANGE DATABASE_USERNAME and DATABASE_PASSWORD
         ```
         PORT = 3030
         DB_LINK = mongodb+srv://DATABASE_USERNAME:<DATABASE_PASSWORD>@cluster0.ua44v.mongodb.net/socialawareness?retryWrites=true&w=majority
