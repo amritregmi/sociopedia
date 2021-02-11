@@ -1,4 +1,4 @@
-# SOCIAL AWARENESS - Addvertisement of Campaign, deployed in heroku (https://https://sociopedia.herokuapp.com)
+# SOCIAL AWARENESS - deployed in heroku (https://sociopedia.herokuapp.com)
 ```
     . Is a app, where real user are able to post their campaign adds to raise awareness. 
     . Fully functional app  
