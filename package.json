@@ -7,7 +7,7 @@
     "start": "node server.js",
     "start:prod": "NODE_ENV=production nodemon server.js",
     "start:dev": "NODE_ENV=development nodemon server.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha",
     "watch:js": "parcel watch ./public/js/index.js --out-dir ./public/js --out-file bundle.js "
   },
   "author": "Amrit",
@@ -30,6 +30,7 @@
   },
   "devDependencies": {
     "@babel/polyfill": "^7.12.1",
+    "mocha": "^8.3.1",
     "nodemon": "^2.0.6",
     "parcel-bundler": "^1.12.4"
   },
